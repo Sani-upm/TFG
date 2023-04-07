@@ -1,6 +1,8 @@
-.xlsx
+
 /INFORMES
-.DS_Store
+
 /PDFautomat/INPUT
 /PDFautomat/MERCADONA_BANCO_SI
 /PDFautomat/MERCADONA_BANCO_NO
+.xlsx
+.DS_Store
