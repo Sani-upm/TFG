@@ -163,7 +163,7 @@ for a in globs:
 
     data = []
     flag=0
-    format(total_factura,'.2f')
+    
 
     if cero is not None:
        dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cero[1],'IVA':cero[2],'TIPO IVA':0,'INTRA': None,'TOTAL':-cero[3], 'TOTAL FACT':-total_factura}
