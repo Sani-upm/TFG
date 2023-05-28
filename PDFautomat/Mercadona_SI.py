@@ -207,19 +207,19 @@ for a in globs:
             data.append(dict)
 
     df = pd.DataFrame(data) #Convertimos a formato pandas
-
+    ARCHIVO = "MERCADONA_1.xlsx"
 
     ##COmprobamos si el archivo existe, si no existe lo creamos con los headers (Fecha,tipo,etc.)
-    check_file = os.path.isfile("MERCADONA_1.xlsx")
+    check_file = os.path.isfile(ARCHIVO)
     if check_file == False:
-        df.to_excel("MERCADONA_1.xlsx",index=False)
+        df.to_excel(ARCHIVO,index=False)
 
 
     #si ya existe solo queremos que se vaya añadiendo, sin el header
     #para ello tenemos que saber a partir de donde tiene que escribir por eso leemos primero el archivo
     #y sacamos las filas (row) y le sumamos 1 porque no cuenta el header del principio
     else:
-        df1 = pd.read_excel('MERCADONA_1.xlsx',sheet_name="Sheet1")
+        df1 = pd.read_excel(ARCHIVO,sheet_name="Sheet1")
         
         #Buscamos si la factura ya esta en el excel
         df2 = []
@@ -236,6 +236,6 @@ for a in globs:
         #la factura no esta en el excel por lo que obtenemos los rows para saber donde escribir    
         max_row=len(df1)+1
         #print(max_row)
-        with pd.ExcelWriter("MERCADONA_1.xlsx",mode="a",if_sheet_exists="overlay") as writer:
+        with pd.ExcelWriter(ARCHIVO,mode="a",if_sheet_exists="overlay") as writer:
             df.to_excel(writer,index=False,header=False,startrow=max_row) #index=None,columns=None
                   

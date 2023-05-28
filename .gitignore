@@ -4,5 +4,7 @@
 /PDFautomat/INPUT
 /PDFautomat/MERCADONA_BANCO_SI
 /PDFautomat/MERCADONA_BANCO_NO
+/PDFautomat/LIDL_SI
+/PDFautomat/LIDL_NO
 /PDFautomat/*.xlsx
 .DS_Store

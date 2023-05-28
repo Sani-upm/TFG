@@ -17,7 +17,7 @@ import sys
 
 
 
-reader = PdfReader("A-V2023-00000698540.pdf")
+reader = PdfReader("LIDL/Copia de factura_2022041900285.pdf")
 #reader = PdfReader("A-V2023-00000698555.pdf") # leemos el pdf y lo metemos en un objeto reader
 hojas=len(reader.pages)         #obtenemos el numero de hojas
 page = reader.pages[hojas-1]    #la informacion esta en la ultima hoja
