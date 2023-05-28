@@ -16,7 +16,7 @@ import os.path
 import sys 
 
 #vamos aobtener todos los pdf que queremos contabilizar 
-globs = glob.iglob('LIDL/**.pdf')
+globs = glob.iglob('LIDL_NO/**.pdf')
 
 #iteramos y obtenemos el excel 
 for a in globs:
@@ -221,49 +221,51 @@ for a in globs:
     BASE=3
     IVA=2
     TOTAL=1
+    
+    BANCO="NO"
 
     data = []
     flag=0
     
     if cero is not None:
-       dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cero[BASE],'IVA':cero[IVA],'TIPO IVA':0,'INTRA': None,'TOTAL':-cero[TOTAL], 'TOTAL FACT':-total_factura}
+       dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cero[BASE],'IVA':cero[IVA],'TIPO IVA':0,'INTRA': None,'TOTAL':-cero[TOTAL], 'TOTAL FACT':-total_factura}
        data.append(dict)
        flag=1
        
     if cuatro is not None:
        if flag==0: 
-           dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cuatro[BASE],'IVA':cuatro[IVA],'TIPO IVA':4,'INTRA': None,'TOTAL':-cuatro[TOTAL],'TOTAL FACT':-total_factura}
+           dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cuatro[BASE],'IVA':cuatro[IVA],'TIPO IVA':4,'INTRA': None,'TOTAL':-cuatro[TOTAL],'TOTAL FACT':-total_factura}
            data.append(dict)
            flag=1
        else:
-           dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cuatro[BASE],'IVA':cuatro[IVA],'TIPO IVA':4,'INTRA': None,'TOTAL':-cuatro[TOTAL],'TOTAL FACT':None}
+           dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cuatro[BASE],'IVA':cuatro[IVA],'TIPO IVA':4,'INTRA': None,'TOTAL':-cuatro[TOTAL],'TOTAL FACT':None}
            data.append(dict)
        
     if cinco is not None:
         if flag==0:
-            dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cinco[BASE],'IVA':cinco[IVA],'TIPO IVA':5,'INTRA': None,'TOTAL':-cinco[TOTAL], 'TOTAL FACT': -total_factura}
+            dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cinco[BASE],'IVA':cinco[IVA],'TIPO IVA':5,'INTRA': None,'TOTAL':-cinco[TOTAL], 'TOTAL FACT': -total_factura}
             data.append(dict)
             flag=1
         else:
-            dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cinco[BASE],'IVA':cinco[IVA],'TIPO IVA':5,'INTRA': None,'TOTAL':-cinco[TOTAL], 'TOTAL FACT': None}
+            dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-cinco[BASE],'IVA':cinco[IVA],'TIPO IVA':5,'INTRA': None,'TOTAL':-cinco[TOTAL], 'TOTAL FACT': None}
             data.append(dict)
        
     if diez is not None:
         if flag==0:
-            dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-diez[BASE],'IVA':diez[IVA],'TIPO IVA':10,'INTRA': None,'TOTAL':-diez[TOTAL], 'TOTAL FACT': -total_factura}
+            dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-diez[BASE],'IVA':diez[IVA],'TIPO IVA':10,'INTRA': None,'TOTAL':-diez[TOTAL], 'TOTAL FACT': -total_factura}
             data.append(dict)
             flag=1
         else:
-            dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-diez[BASE],'IVA':diez[IVA],'TIPO IVA':10,'INTRA': None,'TOTAL':-diez[TOTAL], 'TOTAL FACT': None}
+            dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-diez[BASE],'IVA':diez[IVA],'TIPO IVA':10,'INTRA': None,'TOTAL':-diez[TOTAL], 'TOTAL FACT': None}
             data.append(dict)
             
     if veinte is not None:
         if flag==0:
-            dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-veinte[BASE],'IVA':veinte[IVA],'TIPO IVA':21,'INTRA': None,'TOTAL':-veinte[TOTAL], 'TOTAL FACT':-total_factura}
+            dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-veinte[BASE],'IVA':veinte[IVA],'TIPO IVA':21,'INTRA': None,'TOTAL':-veinte[TOTAL], 'TOTAL FACT':-total_factura}
             data.append(dict)
             flag=1
         else:
-            dict={'FECHA':factura[3],'BANCO':'SI','TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-veinte[BASE],'IVA':veinte[IVA],'TIPO IVA':21,'INTRA': None,'TOTAL':-veinte[TOTAL], 'TOTAL FACT': None}
+            dict={'FECHA':factura[3],'BANCO':BANCO,'TIPO':tipo,'FACTURA':factura[1],'PROVEEDOR':proveedor,'CIF':cif,'REFERENCIA':ref,'FLUJO':flujo,'BASE':-veinte[BASE],'IVA':veinte[IVA],'TIPO IVA':21,'INTRA': None,'TOTAL':-veinte[TOTAL], 'TOTAL FACT': None}
             data.append(dict)
 
     df = pd.DataFrame(data) #Convertimos a formato pandas         
