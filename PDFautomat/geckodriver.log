@@ -1,0 +1,890 @@
+1692357196461	geckodriver	INFO	Listening on 127.0.0.1:51603
+1692357196914	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileMVZvXO"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692357197393	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692357197706	Marionette	INFO	Listening on port 51641
+WebDriver BiDi listening on ws://127.0.0.1:51604
+Read port: 51641
+1692357197960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51604/devtools/browser/9e9748a0-bfb8-416d-bcf0-821427378430
+1692357222650	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: services.settings: 
+  blocklists/addons-bloomfilters Signature failed  TypeError: NetworkError: Network request failed
+console.error: services.settings: 
+  Message: NetworkError: Network error: TypeError: NetworkError: Network request failed
+  Stack:
+    APIError@resource://services-settings/RemoteSettingsClient.sys.mjs:111:1
+NetworkError@resource://services-settings/RemoteSettingsClient.sys.mjs:115:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:911:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+
+console.error: (new NetworkError("Network error: TypeError: NetworkError: Network request failed", "resource://services-settings/RemoteSettingsClient.sys.mjs", 111))
+JavaScript warning: https://www.youtube.com/s/desktop/11fc5992/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js, line 2535: Script terminated by timeout at:
+hm.prototype.transition@https://www.youtube.com/s/desktop/11fc5992/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:2535:33
+CE/<@https://www.youtube.com/s/desktop/11fc5992/jsbin/desktop_polymer_enable_wil_icons.vflset/desktop_polymer_enable_wil_icons.js:8257:114
+
+1692357443386	geckodriver	INFO	Listening on 127.0.0.1:51705
+1692357443900	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilevfhpIt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692357444325	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692357444505	Marionette	INFO	Listening on port 51711
+Read port: 51711
+WebDriver BiDi listening on ws://127.0.0.1:51706
+1692357444562	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51706/devtools/browser/a05876ba-2290-4a70-bf51-b3ad47310106
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1692357477654	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: Region.sys.mjs: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 759))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.sys.mjs", 411))
+1692357486453	addons.xpi	ERROR	System addon update list error Error: Failed downloading XML, status: 0, channelStatus: 2152398878, errorCode: 2, reason: error
+1692357508272	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1692378487984	Marionette	INFO	Stopped listening on port 51711
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1692867489696	geckodriver	INFO	Listening on 127.0.0.1:50778
+1692867490200	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileK2SqyF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692867490737	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692867491058	Marionette	INFO	Listening on port 50796
+WebDriver BiDi listening on ws://127.0.0.1:50779
+Read port: 50796
+1692867491319	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:50779/devtools/browser/744f479c-8de6-4eea-ad52-2404db7adc19
+JavaScript error: https://media.ethicalads.io/media/client/v1.4.0/ethicalads.min.js, line 1: Error: No ad placements found.
+JavaScript error: resource:///actors/FormValidationChild.sys.mjs, line 178: TypeError: this._element is null
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.python.org."
+1692867496598	Marionette	INFO	Stopped listening on port 50796
+1692869202749	geckodriver	INFO	Listening on 127.0.0.1:51256
+1692869203270	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilevG2hqG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692869203870	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692869204190	Marionette	INFO	Listening on port 51264
+Read port: 51264
+WebDriver BiDi listening on ws://127.0.0.1:51257
+1692869204264	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51257/devtools/browser/ab0431d1-f427-482b-9d53-139cb4c1309b
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+1692869597132	geckodriver	INFO	Listening on 127.0.0.1:51374
+1692869597653	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofile4yAWKc"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692869598110	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692869598285	Marionette	INFO	Listening on port 51382
+WebDriver BiDi listening on ws://127.0.0.1:51375
+Read port: 51382
+1692869598501	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51375/devtools/browser/234d4026-6c5e-4497-8541-2853f9ad5d58
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692869804521	geckodriver	INFO	Listening on 127.0.0.1:51443
+1692869805041	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofiletq2Ovr"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692869805483	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692869805765	Marionette	INFO	Listening on port 51451
+Read port: 51451
+WebDriver BiDi listening on ws://127.0.0.1:51444
+1692869805819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51444/devtools/browser/c1d84273-a6a8-45d3-89d6-82d80e7f3b09
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+1692870673734	geckodriver	INFO	Listening on 127.0.0.1:51632
+1692870674253	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilekRCpjS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692870674691	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692870674974	Marionette	INFO	Listening on port 51638
+WebDriver BiDi listening on ws://127.0.0.1:51633
+Read port: 51638
+1692870675062	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51633/devtools/browser/46471ec9-4968-4f87-855f-16bf923a1afc
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+1692870879438	geckodriver	INFO	Listening on 127.0.0.1:51698
+1692870879954	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilezIkNSd"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692870880397	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692870880684	Marionette	INFO	Listening on port 51704
+Read port: 51704
+WebDriver BiDi listening on ws://127.0.0.1:51699
+1692870880740	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51699/devtools/browser/4a083db9-d6d0-4fff-81e4-7b5056e4b6a5
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+1692871483409	geckodriver	INFO	Listening on 127.0.0.1:51821
+1692871483923	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilezC36Pq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692871484368	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692871484651	Marionette	INFO	Listening on port 51828
+Read port: 51828
+WebDriver BiDi listening on ws://127.0.0.1:51822
+1692871484705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51822/devtools/browser/9a57094a-365f-4165-8c85-a5c30874764a
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+1692871501025	Marionette	INFO	Stopped listening on port 51264
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871502793	Marionette	INFO	Stopped listening on port 51382
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871504609	Marionette	INFO	Stopped listening on port 51451
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871506596	Marionette	INFO	Stopped listening on port 51638
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871508272	Marionette	INFO	Stopped listening on port 51704
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871515448	Marionette	INFO	Stopped listening on port 51828
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: (new Error("Polling for changes failed: NetworkError: Network request failed.", "resource://services-settings/remote-settings.sys.mjs", 324))
+1692871546811	geckodriver	INFO	Listening on 127.0.0.1:51874
+1692871547326	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileZJfINI"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692871547778	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692871548065	Marionette	INFO	Listening on port 51880
+WebDriver BiDi listening on ws://127.0.0.1:51875
+Read port: 51880
+1692871548281	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51875/devtools/browser/d52c1257-4256-4fa5-8296-ef1225bc91bf
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692871608516	Marionette	INFO	Stopped listening on port 51880
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871690410	geckodriver	INFO	Listening on 127.0.0.1:51937
+1692871690919	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileXOURsC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692871691340	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692871691622	Marionette	INFO	Listening on port 51944
+WebDriver BiDi listening on ws://127.0.0.1:51938
+Read port: 51944
+1692871691752	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:51938/devtools/browser/59778167-06ff-45cd-a4e7-c90a72d82b9e
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692871925675	Marionette	INFO	Stopped listening on port 51944
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692871941589	geckodriver	INFO	Listening on 127.0.0.1:52019
+1692871942102	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileYh4IcL"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692871942535	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692871942815	Marionette	INFO	Listening on port 52025
+WebDriver BiDi listening on ws://127.0.0.1:52020
+Read port: 52025
+1692871942945	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52020/devtools/browser/2cfd62c1-e2a9-49cd-8bbe-a961601b02b9
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 841: Script terminated by timeout at:
+R@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:841:17
+bl@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:862:85
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:133
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692872602950	geckodriver	INFO	Listening on 127.0.0.1:52148
+1692872603462	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileAXwhKZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692872603909	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692872604200	Marionette	INFO	Listening on port 52154
+WebDriver BiDi listening on ws://127.0.0.1:52149
+Read port: 52154
+1692872604417	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52149/devtools/browser/d722da19-0e5a-4b29-bee9-af56fdd57ce5
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 841: Script terminated by timeout at:
+R@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:841:17
+bl@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:862:85
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:133
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692873102815	geckodriver	INFO	Listening on 127.0.0.1:52216
+1692873103327	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilecKj4rV"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692873103767	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692873104044	Marionette	INFO	Listening on port 52222
+WebDriver BiDi listening on ws://127.0.0.1:52217
+Read port: 52222
+1692873104132	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.sys.mjs: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.sys.mjs: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.sys.mjs", 411))
+DevTools listening on ws://127.0.0.1:52217/devtools/browser/629d190a-981e-4d97-835e-4cb5b380f241
+1692873105376	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1692873125181	geckodriver	INFO	Listening on 127.0.0.1:52245
+1692873125690	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilenhCABu"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692873126104	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692873126383	Marionette	INFO	Listening on port 52254
+WebDriver BiDi listening on ws://127.0.0.1:52246
+Read port: 52254
+1692873126589	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52246/devtools/browser/ec64f85d-2d4a-4b24-8a54-d6307d412218
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692873307951	Marionette	INFO	Stopped listening on port 52254
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692873309750	Marionette	INFO	Stopped listening on port 52222
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692873323839	Marionette	INFO	Stopped listening on port 52025
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692873328667	geckodriver	INFO	Listening on 127.0.0.1:52322
+1692873329189	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileIztlLi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692873329637	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692873329912	Marionette	INFO	Listening on port 52329
+WebDriver BiDi listening on ws://127.0.0.1:52323
+Read port: 52329
+1692873330050	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52323/devtools/browser/e271c3b5-ac63-49a5-a963-39d2da917e11
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.portalcliente.mercadona.es."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.portalcliente.mercadona.es."
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:309:10
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692873517096	Marionette	INFO	Stopped listening on port 52329
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1692873523636	Marionette	INFO	Stopped listening on port 52154
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692873526385	geckodriver	INFO	Listening on 127.0.0.1:52394
+1692873526895	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileBBossJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692873527332	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692873527610	Marionette	INFO	Listening on port 52401
+WebDriver BiDi listening on ws://127.0.0.1:52395
+Read port: 52401
+1692873527743	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52395/devtools/browser/1e676275-a629-4019-b4d7-cb2b14309a90
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.cookies, line 440: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.cookies, line 442: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.cookies, line 443: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692873693286	Marionette	INFO	Stopped listening on port 52401
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692874020380	geckodriver	INFO	Listening on 127.0.0.1:52509
+1692874020890	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileMpzBWf"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874021306	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874021585	Marionette	INFO	Listening on port 52515
+WebDriver BiDi listening on ws://127.0.0.1:52510
+Read port: 52515
+1692874021790	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52510/devtools/browser/82bf0055-6f7b-46e7-ab70-a66a2db388ac
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692874037916	Marionette	INFO	Stopped listening on port 52515
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692874231477	geckodriver	INFO	Listening on 127.0.0.1:52571
+1692874231997	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileOmweBt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874232458	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874232743	Marionette	INFO	Listening on port 52578
+WebDriver BiDi listening on ws://127.0.0.1:52572
+Read port: 52578
+1692874232961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52572/devtools/browser/132dcc42-2080-4ac0-8662-14562b899dae
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692874248377	Marionette	INFO	Stopped listening on port 52578
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692874418786	geckodriver	INFO	Listening on 127.0.0.1:52630
+1692874419301	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofile0CWPeW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874419737	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874420020	Marionette	INFO	Listening on port 52636
+WebDriver BiDi listening on ws://127.0.0.1:52631
+Read port: 52636
+1692874420075	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52631/devtools/browser/f21d9a1b-d1fd-4a90-aa11-aefa673961bd
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692874438980	Marionette	INFO	Stopped listening on port 52636
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692874592793	geckodriver	INFO	Listening on 127.0.0.1:52689
+1692874593308	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofile92QKnZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874593749	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874594028	Marionette	INFO	Listening on port 52695
+WebDriver BiDi listening on ws://127.0.0.1:52690
+Read port: 52695
+1692874594164	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52690/devtools/browser/04375d17-7bcf-422c-9069-b4fb7bad574a
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692874644262	Marionette	INFO	Stopped listening on port 52695
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692874646481	geckodriver	INFO	Listening on 127.0.0.1:52734
+1692874647002	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilejrtHia"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874647453	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874647729	Marionette	INFO	Listening on port 52740
+Read port: 52740
+WebDriver BiDi listening on ws://127.0.0.1:52735
+1692874647785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52735/devtools/browser/69f725e1-4b30-4242-9dc0-93a98a36828e
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692874669556	geckodriver	INFO	Listening on 127.0.0.1:52772
+1692874670077	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilee2krM2"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874670516	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874670794	Marionette	INFO	Listening on port 52778
+WebDriver BiDi listening on ws://127.0.0.1:52773
+Read port: 52778
+1692874670848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52773/devtools/browser/cda2e324-acea-4ec3-bb4e-e9a37dd98ae7
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: Script terminated by timeout at:
+OH@https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB:1:38545
+
+1692874678681	Marionette	INFO	Stopped listening on port 52740
+console.error: services.settings: 
+  Message: StorageError: Storage error: Error: IndexedDB: blocklists/gfx pruneAttachments() IndexedDB:  execute() The application is shutting down
+  Stack:
+    StorageError@resource://services-settings/RemoteSettingsClient.sys.mjs:157:5
+_adjustedError@resource://services-settings/RemoteSettingsClient.sys.mjs:928:14
+maybeSync@resource://services-settings/RemoteSettingsClient.sys.mjs:816:38
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:575:17
+
+console.warn: services.settings: blocklists/addons-bloomfilters sync interrupted by shutdown
+console.error: (new Error("IndexedDB: main/devtools-compatibility-browsers getLastModified() IndexedDB:  execute() The application is shutting down", "resource://services-settings/IDBHelpers.sys.mjs", 16))
+1692874696514	geckodriver	INFO	Listening on 127.0.0.1:52805
+1692874697024	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileuUbdvX"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692874697444	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692874697721	Marionette	INFO	Listening on port 52811
+WebDriver BiDi listening on ws://127.0.0.1:52806
+Read port: 52811
+1692874697925	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52806/devtools/browser/9e60da67-cb45-4401-8072-f8c02e036287
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875393661	geckodriver	INFO	Listening on 127.0.0.1:52995
+1692875394177	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilenMjPkQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692875394632	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692875394816	Marionette	INFO	Listening on port 53002
+WebDriver BiDi listening on ws://127.0.0.1:52996
+Read port: 53002
+1692875395028	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:52996/devtools/browser/2b160478-5fec-4409-a1e9-0af7208818f1
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875422506	geckodriver	INFO	Listening on 127.0.0.1:53037
+1692875423025	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilefMo9PZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692875423469	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692875423655	Marionette	INFO	Listening on port 53043
+WebDriver BiDi listening on ws://127.0.0.1:53038
+Read port: 53043
+1692875423866	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53038/devtools/browser/05c21173-12e7-475d-a365-f9bac551f438
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js, line 7668: Script terminated by timeout at:
+g.k.CK@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:7668:57
+g.k.eq@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:7667:28
+hl.prototype.qZ@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:7773:109
+QI.prototype.s_@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:9014:41
+g.k.invoke@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:9005:64
+Yya@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:3011:47
+g.mza/a.c1a@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:3027:276
+g.nza@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:3030:167
+g.k.yQ@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:11410:137
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:11304:102
+g.k.sendAbandonmentPing@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:9450:62
+NP/a.state.j[b]@https://www.youtube.com/s/player/21812a9c/player_ias.vflset/es_ES/base.js:3965:53
+sx/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1822:106
+Ex@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1858:46
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:183
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875489496	geckodriver	INFO	Listening on 127.0.0.1:53089
+1692875490016	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilexa1Ieb"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692875490462	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692875490748	Marionette	INFO	Listening on port 53095
+Read port: 53095
+WebDriver BiDi listening on ws://127.0.0.1:53090
+1692875490798	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53090/devtools/browser/211dd7a8-238b-473f-902f-00c94d3ecc3b
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875504588	Marionette	INFO	Stopped listening on port 52778
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692875505906	Marionette	INFO	Stopped listening on port 52811
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692875507827	Marionette	INFO	Stopped listening on port 53002
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: Script terminated by timeout at:
+OH@https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB:1:38545
+
+1692875509720	Marionette	INFO	Stopped listening on port 53043
+1692875515132	Marionette	INFO	Stopped listening on port 53095
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692875804581	geckodriver	INFO	Listening on 127.0.0.1:53169
+1692875805089	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileN9prmQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692875805510	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692875805799	Marionette	INFO	Listening on port 53175
+WebDriver BiDi listening on ws://127.0.0.1:53170
+Read port: 53175
+1692875805890	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53170/devtools/browser/191d97bc-581e-4566-b15f-4e7c9a57ce7d
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875828561	geckodriver	INFO	Listening on 127.0.0.1:53208
+1692875829066	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofileWRLAHs"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692875829495	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692875829778	Marionette	INFO	Listening on port 53214
+WebDriver BiDi listening on ws://127.0.0.1:53209
+Read port: 53214
+1692875829911	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53209/devtools/browser/a7fa9f7a-1f4c-4203-8bf3-364440eedfed
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 844: Script terminated by timeout at:
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:47
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875848807	geckodriver	INFO	Listening on 127.0.0.1:53251
+1692875849316	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/0k/3wzlxjpx7z1ct3y0736gmh1h0000gn/T/rust_mozprofilealC6P6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1692875849745	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1692875850025	Marionette	INFO	Listening on port 53257
+WebDriver BiDi listening on ws://127.0.0.1:53252
+Read port: 53257
+1692875850114	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:53252/devtools/browser/856d9930-87ae-43b5-898e-686b6af9c940
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 488: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 490: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES, line 491: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js, line 860: Script terminated by timeout at:
+S@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:860:131
+Ix<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:1865:98
+Nk/<@https://www.youtube.com/s/player/21812a9c/www-embed-player.vflset/www-embed-player.js:844:63
+
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: unreachable code after return statement
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 252: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 254: ReferenceError: page is not defined
+JavaScript error: https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.ri.login&fwk.locale=es_ES, line 255: ReferenceError: page is not defined
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://www.portalcliente.mercadona.es/-UGiWEion/3tzk/5-juw/Ea7GhwGfQf/Bz5ACz8D/CC8/xB2RjCwEB, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1692875866055	Marionette	INFO	Stopped listening on port 53175
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1692875868342	Marionette	INFO	Stopped listening on port 53214
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

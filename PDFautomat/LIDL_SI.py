@@ -16,7 +16,7 @@ import os.path
 import sys 
 
 #vamos aobtener todos los pdf que queremos contabilizar 
-globs = glob.iglob('LIDL_NO/**.pdf')
+globs = glob.iglob('LIDL_SI/**.pdf')
 
 #iteramos y obtenemos el excel 
 for a in globs:
