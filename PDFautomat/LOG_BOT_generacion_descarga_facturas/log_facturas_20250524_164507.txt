@@ -1,0 +1,23 @@
+
+➡️ Procesando ticket: 24/05/2025 | 3274-016-272677 | Total: 12 | Tarjeta: 8669
+📨 Solicitud enviada.
+✅ Ejecutado: doShowPdf('2025','3274','2417987','A','V','24/05/2025','N')
+📂 PDF 'A-V2025-00002417987.pdf' movido a: MERCADONA_BANCO_SI
+
+➡️ Procesando ticket: 24/05/2025 | 3274-010-479573 | Total: 5,88 | Tarjeta: 8669
+📨 Solicitud enviada.
+✅ Ejecutado: doShowPdf('2025','3274','2417998','A','V','24/05/2025','N')
+📂 PDF 'A-V2025-00002417998.pdf' movido a: MERCADONA_BANCO_SI
+
+➡️ Procesando ticket: 24/05/2025 | 3274-016-272678 | Total: 48,47 | Tarjeta: 8669
+📨 Solicitud enviada.
+✅ Ejecutado: doShowPdf('2025','3274','2418005','A','V','24/05/2025','N')
+📂 PDF 'A-V2025-00002418005.pdf' movido a: MERCADONA_BANCO_SI
+
+✅ Excel actualizado: tickets_mercadona_2.xlsx
+
+📊 RESUMEN:
+  ✅ Facturas generadas y descargadas: 3
+  ⚠️ Tickets ya facturados: 0
+  ❌ Tickets incorrectos: 0
+  ❓ Otros errores: 0

@@ -10,8 +10,8 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 
-correo = "sani.mitkov@gmail.com"
-password_merca = "lokisimO41-m"
+correo = ""
+password_merca = ""
 driver = webdriver.Firefox()
 driver.get("https://www.portalcliente.mercadona.es/pclie/web/op.htm?operation=pclie.flow.inicio&fwk.locale=es_ES")
 

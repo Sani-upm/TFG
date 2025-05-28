@@ -38,9 +38,7 @@ def extract_ticket_data(pdf_path):
             "Caja": None,
             "Ticket": None,
             "Total": None,
-            "Tarjeta": None,
-            "Procesado": None,
-            "Comentario": None
+            "Tarjeta": None
         }
 
         # Fecha
@@ -64,16 +62,8 @@ def extract_ticket_data(pdf_path):
         tarjeta_match = re.search(r'TARJ\. BANCARIA.*?(\d{4})', text)
         if tarjeta_match:
             data["Tarjeta"] = int(tarjeta_match.group(1))
-            
-        # Procesado
-        data["Procesado"]=""
-        
-        # Comentario
-        data["Comentario"]=""
-        
 
-        # Validar solo los campos esenciales
-        if data["Fecha"] and data["Tienda"] and data["Caja"] and data["Ticket"] and data["Total"]:
+        if all(data.values()):
             return data
         else:
             logging.warning(f"Datos incompletos en {pdf_path}: {data}")
@@ -94,9 +84,9 @@ def process_tickets(folder_path, processed_folder, excel_path):
     os.makedirs(error_folder, exist_ok=True)
 
     if os.path.exists(excel_path):
-        df_existente = pd.read_excel(excel_path, dtype={"Tienda": int, "Caja": int, "Ticket": int, "Tarjeta": int, "Procesado": str, "Comentario": str})
+        df_existente = pd.read_excel(excel_path, dtype={"Tienda": int, "Caja": int, "Ticket": int, "Tarjeta": int})
     else:
-        df_existente = pd.DataFrame(columns=["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta", "Procesado", "Comentario"])
+        df_existente = pd.DataFrame(columns=["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta"])
 
     nuevos_datos = []
 
@@ -125,13 +115,8 @@ def process_tickets(folder_path, processed_folder, excel_path):
 
     if nuevos_datos:
         df_nuevos = pd.DataFrame(nuevos_datos)
-        # Asegurar columnas en blanco si no existen
-        for col in ["Procesado", "Comentario"]:
-                if col not in df_nuevos.columns:
-                    df_nuevos[col] = ""
-                    
         df_final = pd.concat([df_existente, df_nuevos], ignore_index=True)
-        df_final = df_final[["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta", "Procesado", "Comentario"]]
+        df_final = df_final[["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta"]]
         df_final.to_excel(excel_path, index=False)
         logging.info("Exportación completada correctamente.")
     else:

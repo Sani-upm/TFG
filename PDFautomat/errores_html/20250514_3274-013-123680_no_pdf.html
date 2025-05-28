@@ -1,0 +1,812 @@
+<html lang="es-ES"><head>
+
+
+
+
+<title>Portal del Cliente - Solicita tu factura</title>
+<meta charset="UTF-8">
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+
+<meta name="description" content="Bienvenido al Portal del Cliente de Mercadona. Puede gestionar sus facturas electrónicas o en formato PDF.">
+<meta name="author" content="Mercadona">
+<meta name="keywords" content="Mercadona, Portal del Cliente, Factura online, Consulta de facturas, Factura mensual">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="/pclie/css/bootstrap.css">
+<link rel="stylesheet" href="/pclie/css/bootstrap-datepicker.css">
+<link rel="stylesheet" href="/pclie/css/datatables.css">
+<link rel="stylesheet" href="/pclie/css/jquery.scrolling-tabs.css">
+<link rel="stylesheet" href="/pclie/css/styles.css?v=1.4">	
+
+</head>
+<body style="padding-top: 88.9766px;">
+	
+
+<script src="/pclie/js/jquery.js"></script>
+<script src="/pclie/js/jquery.validate.js"></script>
+<script src="/pclie/js/jquery.scrolling-tabs.min.js"></script>
+<script src="/pclie/js/bootstrap.min.js"></script>
+<script src="/pclie/js/bootstrap-datepicker.js"></script>
+<script src="/pclie/js/locales/bootstrap-datepicker.es.js"></script>
+<script src="/pclie/js/datatables.min.js"></script>
+<script src="/pclie/js/moment.min.js"></script>
+<script src="/pclie/js/datetime-moment.js"></script>
+<script src="/pclie/js/utilidades.js"></script>
+<script src="/pclie/js/chart.min.js"></script>
+<script src="/pclie/js/chartjs-plugin-datalabels.js"></script>
+
+	
+
+
+
+
+
+
+
+
+
+
+	<header id="header" class="header header__home">
+	    <div style="display:none">
+	    	<form id="callMisFacturasMenu" action="/pclie/web/op.htm" method="post">
+	    		<input type="hidden" name="operation" value="pclie.flow.ri.misFacturas">
+	    		
+	    	</form>
+	    	
+	    </div>
+	    
+		<div class="header__wrapper">
+			
+			<h1 class="header__icon">
+				<a href="/pclie/web/op.htm?operation=pclie.flow.ri.home">
+					<img src="/pclie/assets/svg/logo-mercadona-min.svg" alt="Mercadona">
+				</a>
+			</h1>
+			<a class="header__title" href="/pclie/web/op.htm?operation=pclie.flow.ri.home">
+				Portal facturas cliente
+			</a>
+			<div id="btnMenu" class="header__menu pointer">
+				<i class="icon-menu"></i>
+			</div>
+			<div class="header__links">
+				<div class="header__links-link">                    
+					
+					<a id="btnSolicitudFactura" class="btn-link active" href="/pclie/web/op.htm?operation=pclie.flow.ri.solicitudFactura">
+						<i class="icon-request-bills">
+							<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+						</i>
+						<span>
+							Solicitar nueva factura
+						</span>
+					</a>
+					
+					
+					         
+					<!--  <a id="btnMisFacturas" class="btn-link" href="/pclie/web/op.htm?operation=pclie.flow.ri.misFacturas"> -->
+					<a id="btnMisFacturasMenu" class="btn-link" href="#">
+						<i class="icon-bills">
+							<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span>
+						</i>
+						<span>
+							Facturas ya solicitadas
+						</span>
+					</a>
+					
+					
+					<a id="btnMisDatos" class="btn-link" href="/pclie/web/op.htm?operation=pclie.flow.ri.misDatosFactura">
+						<i class="icon-data">
+							<span class="path1"></span><span class="path2"></span></i>
+						<span>
+							Mis datos
+						</span>
+					</a>
+				</div>
+				<div class="header__links-lang">
+				<a id="btnLang" class="btn-link" href="javascript:;"> 
+					<span> Español</span> 
+					<i class="icon-arrow-down"></i>
+				</a>
+				<ul id="listLang" class="header__lang">
+						
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="ca_ES">
+									Català
+								</button>
+							</li>
+							
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="en_EN">
+									English
+								</button>
+							</li>
+							
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="es_ES">
+									Español
+								</button>
+							</li>
+							
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="eu_ES">
+									Euskara
+								</button>
+							</li>
+							
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="gl_ES">
+									Galego
+								</button>
+							</li>
+							
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="pt_PT">
+									Português
+								</button>
+							</li>
+							
+							<li class="header__lang-item">
+								<button type="button" class="header__lang-button" data-lang="es_ES_va">
+									Valencià
+								</button>
+							</li>
+							
+					</ul>
+				</div>
+				<div class="header__links-logout">
+					<a class="btn-link" href="/pclie/web/op.htm?operation=pclie.flow.ri.logOut">
+						Salir
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="menu" class="menu d-block d-xl-none">
+		<div class="menu__overlay"></div>
+		<div class="menu__container">
+			<div class="menu__header">
+				<i id="btnCloseMenu" class="icon-close pointer"></i>
+				<span class="menu__title">
+					Portal facturas cliente
+				</span>
+			</div>
+			<div class="menu__body">
+				<div class="menu__block">
+					<ul>
+						
+						<li>
+							<a class="menu__link" href="/pclie/web/op.htm?operation=pclie.flow.ri.solicitudFactura">
+								<i class="icon-request-bills-menu">
+									<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span>
+								</i>
+								<span>
+									Solicitar nueva factura
+								</span>
+							</a>
+						</li>
+						
+						<li>
+							<a class="menu__link" href="/pclie/web/op.htm?operation=pclie.flow.ri.misFacturas"> 
+								<i class="icon-bills-menu">
+									<span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span>
+								</i>
+								<span>Facturas ya solicitadas</span>
+							</a>
+						</li>
+						<li>
+							<a class="menu__link" href="/pclie/web/op.htm?operation=pclie.flow.ri.misDatosFactura"> 
+								<i class="icon-data-menu">
+									<span class="path1"></span><span class="path2"></span><span class="path3"></span>
+								</i>
+								<span>Mis datos</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="menu__block">
+					<div id="accordionMenu" class="accordion accordion-flush">
+						<div class="accordion-item">
+							<h2 class="accordion-header" id="flush-headingOne">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">Español</button>
+							</h2>
+							<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionMenu">
+								<div class="accordion-body">
+									
+									<button type="button" class="menu__lang-button" data-lang="ca_ES">Català</button>
+									
+									<button type="button" class="menu__lang-button" data-lang="en_EN">English</button>
+									
+									<button type="button" class="menu__lang-button" data-lang="es_ES">Español</button>
+									
+									<button type="button" class="menu__lang-button" data-lang="eu_ES">Euskara</button>
+									
+									<button type="button" class="menu__lang-button" data-lang="gl_ES">Galego</button>
+									
+									<button type="button" class="menu__lang-button" data-lang="pt_PT">Português</button>
+									
+									<button type="button" class="menu__lang-button" data-lang="es_ES_va">Valencià</button>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="menu__footer">
+				<a class="menu__link" href="/pclie/web/op.htm?operation=pclie.flow.ri.logOut">
+					Salir
+				</a>
+			</div>
+		</div>
+	</div>
+	
+	
+	<!-- Acciones del menu  -->
+    <script>
+    $('#btnMisFacturasMenu').on('click', function() {
+    	//habría que buscar el nombre seleccionado, cargar en input y hacer submit
+    	$('#callMisFacturasMenu').trigger('submit');
+    });  
+    </script>
+	
+	
+
+
+
+
+
+
+
+
+
+
+<script>
+	function setCookie(cname, cvalue, exdays) {
+		var d = new Date();
+		d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+		var expires = "expires=" + d.toUTCString();
+		document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+	}
+</script>
+
+
+
+<div id="cookies" class="cookies" style="display:none">
+    <div class="cookies__wrapper">
+        <div class="cookies__info-wrapper">
+            <div class="cookies__icon">
+                <img src="/pclie/assets/svg/cookies.svg" alt="Cookies">
+            </div>
+            <div class="cookies__info">
+                <p>Este sitio web utiliza cookies propias con finalidad técnica, no recoge ni trata datos personales de los usuarios de la web. Para continuar navegando pulse ACEPTAR.</p>
+            </div>
+        </div>
+        <div class="cookies__links">
+            <a class="btn-link" href="/pclie/web/op.htm?operation=pclie.flow.ri.cookies" target="_blank">
+            	Más información
+            </a>
+            <button id="btnCookies" type="button" class="btn btn-primary" onclick="setCookie('allowCookie',true,365);">ACEPTAR</button>
+        </div>
+    </div>
+</div>
+	<div>
+
+
+
+	<form id="fiscalEntity_cambiaIdioma" method="get" action="/pclie/web/op.htm">
+		<input type="hidden" name="operation" id="operation" value="pclie.flow.ri.solicitudFactura">
+		<input type="hidden" name="fiscalEntitySelect" value="">
+		<input type="hidden" name="fwk.locale" id="idioma" value="">
+	</form>
+	
+	<script>
+		$('#listLang button, #accordionMenu .menu__lang-button').on('click', function() {
+		    const langData = $(this).attr('data-lang');
+		    $('#fiscalEntity_cambiaIdioma').find('#idioma').val(langData);
+		    $('#fiscalEntity_cambiaIdioma').trigger('submit');
+		});
+		
+		$('.header__links-link .btn-link').removeClass('active');
+		$('#btnSolicitudFactura').addClass('active');
+	</script>
+
+	<div style="display:none">
+		<form id="showPDFFrm" action="/pclie/web/op.htm">
+			<input type="hidden" name="operation" value="pclie.flow.ri.mostrarPDFsolicitudFactura">
+			<input type="hidden" name="anyoFact" id="anyoFact">
+			<input type="hidden" name="centroFact" id="centroFact">
+			<input type="hidden" name="numFact" id="numFact">
+			<input type="hidden" name="tipoFact" id="tipoFact">
+			<input type="hidden" name="tipoImp" id="tipoImp">
+			<input type="hidden" name="fechaFact" id="fechaFact">
+			<input type="hidden" name="mensual" id="mensual">
+			<input type="hidden" name="billsFiscalEntitySelect" id="billsFiscalEntitySelect">
+			<input type="hidden" name="fiscalEntitySelect" id="tfiscalEntitySelect">
+			<input type="hidden" name="dateFrom" id="dateFrom">
+			<input type="hidden" name="dateTo" id="dateTo">
+		</form>
+	</div>
+
+
+	
+	
+		<!--  Mostrar mensaje de error de NO impresión -->
+	
+	
+	
+	<section class="dashboard">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- BOTON HELP -->
+        <button id="btnHelp" type="button" class="btn btn-primary btn-fixed">
+            <span>AYUDA</span>
+            <i class="icon-help"></i>
+        </button>
+
+        <!-- MODAL HELP -->
+
+        <div id="modalHelp" class="modal-help">
+
+            <div class="help-header">
+                <div class="help-header-info">
+                    <p class="help-header-phone">¿En qué podemos ayudarte?</p>
+                    <p> </p>
+                </div>
+                <div id="closeModalHelp" class="help-header-close pointer">
+                    <i class="icon-close"></i>
+                </div>
+            </div>
+
+            <div id="accordionHelp" class="accordion accordion-flush">
+            	
+                
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                        	¿Cómo puedo solicitar facturas?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1" data-bs-parent="#accordionHelp">
+                        <div class="accordion-body">
+                        	<p>En la opción de "Solicitar facturas" debes introducir los datos de tu ticket de compra en los espacios a rellenar en la imagen del ticket.</p>
+                        	
+				
+				
+				<p>Las facturas solicitadas podrás descargarlas e imprimirlas desde el Portal. </p>
+				
+				
+                
+                		</div>
+                    </div>
+                </div>
+                
+                
+                
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                        	Cuando voy a solicitar una factura no me deja introducir los datos
+                        </button>
+                    </h2>
+                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3" data-bs-parent="#accordionHelp">
+                        <div class="accordion-body">
+                        	<p>Si tienes más de un perfil de facturación asociado a esta cuenta tendrás que elegir a nombre de quién quieres que se emita esa factura antes de introducir los datos.</p>
+                        	
+				
+                
+                		</div>
+                    </div>
+                </div>
+                
+                
+                
+				<div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                        	¿Qué datos son necesarios para solicitar una factura?
+                        </button>
+                    </h2>
+                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4" data-bs-parent="#accordionHelp">
+                        <div class="accordion-body">
+                        	<p>Deberás introducir los siguientes datos que aparecen en tu ticket de compra: fecha de la compra, número de factura simplificada e importe. </p>
+                        	
+				        
+                      
+                    	</div>
+                    </div>
+                </div>         
+                             
+                
+                                                           
+            </div>
+        </div>
+		
+		
+		
+		<article class="dashboard__container">
+			
+			<a class="btn-link btn-back" href="/pclie/web/op.htm?operation=pclie.flow.ri.home">
+				<i class="icon-arrow-back"></i> 
+				<span>Volver</span>
+			</a>
+
+			<h2 class="dashboard__subtitle">Solicita tu factura</h2>
+
+			<div class="dashboard__select">
+				<div class="col-12 margin-select">
+					<form id="formEntitySelect" action="" method="post">
+						<input type="hidden" name="operation" value="pclie.flow.ri.solicitudFacturaEntidad">
+						
+						<label for="fiscalEntitySelect" class="form-label">Facturas a nombre de</label>
+						<div class="form-select-icon">
+							<select name="fiscalEntitySelect" id="fiscalEntitySelect" class="form-select">
+								<option value="-1">Selecciona a quién emitir la factura</option>
+								
+								<option value="EB47785811#KAMEN 99, S.L." selected="">KAMEN 99, S.L.</option>
+								
+							</select>
+							<i class="icon-arrow-down pos-right"></i>
+						</div>
+					</form>
+				</div>
+				<p>Fíjate en tu ticket y rellena los campos indicados en el siguiente dibujo:</p>
+			</div>
+
+			<div class="dashboard__bills">
+				<div class="dashboard__ticket">
+					<div class="dashboard__ticket-wrapper">
+						<div class="dashboard__ticket-help">
+							<button type="button" class="btn-link text-uppercase" data-bs-toggle="modal" data-bs-target="#ticketHelp">
+								<span>AYUDA</span> <i class="icon-help"></i>
+							</button>
+						</div>
+						<div class="dashboard__ticket-logo">
+							<i class="icon-logo-mercadona-ticket"></i>
+						</div>
+						<div class="dashboard__ticket-lines small">
+							<div class="dashboard__ticket-lines-rectangle"></div>
+							<div class="dashboard__ticket-lines-rectangle"></div>
+						</div>
+						<form class="form dashboard__ticket-form needs-validation" action="/pclie/web/op.htm" novalidate="" method="post">
+							
+							<input type="hidden" name="operation" value="pclie.flow.ri.finSolicitarFactura">
+							<input type="hidden" name="idEntidad" value="EB47785811">
+							<input type="hidden" name="rsEntidad" value="KAMEN 99, S.L.">
+							<input type="hidden" name="fiscalEntitySelect" value="EB47785811#KAMEN 99, S.L.">
+							
+							<div class="row">
+								<div class="col-8 margin-input">
+									<label for="dateTicket" class="form-label text-uppercase">Fecha de compra</label>
+									<div class="input-group date">
+										<input type="text" class="form-control datepicker" name="dateTicket" id="dateTicket" value="" placeholder="dd/mm/aaaa" required="" pattern="[0-9]{2}/[0-9]{2}/[0-9]{4}"> 
+										<span class="input-group-text">
+											 <i class="icon-calendar-input pos-right pointer"></i>
+										</span>
+										<div class="invalid-tooltip">Verifique que la fecha este informada y que su formato sea correcto (dd/mm/aaaa)</div>
+									</div>
+								</div>
+								<div class="col-4">
+									<span class="dashboard__ticket-time">Hora OP: XXXX</span>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-12 margin-input">
+									<label for="simplifiedBill" class="form-label text-uppercase">Factura simplificada</label>
+									<div class="row gt-10">
+										<div class="custom-col-1">
+											<input type="text" class="form-control" name="simplifiedBillCenter" id="simplifiedBillCenter" value="" placeholder="XXXX" maxlength="4" required="">
+											<div class="invalid-tooltip">El campo es obligatorio</div>
+										</div>
+										<span class="col-separator">-</span>
+										<div class="custom-col-2">
+											<input type="text" class="form-control" name="simplifiedBillBox" id="simplifiedBillBox" value="" placeholder="XXX" maxlength="3" required="">
+											<div class="invalid-tooltip">El campo es obligatorio</div>
+										</div>
+										<span class="col-separator">-</span>
+										<div class="custom-col-3">
+											<input type="text" class="form-control" name="simplifiedBillNumTicket" id="simplifiedBillNumTicket" value="" placeholder="XXXXXX" maxlength="6" required="">
+											<div class="invalid-tooltip">El campo es obligatorio</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="dashboard__ticket-barcode"></div>
+							<div class="dashboard__ticket-separator"></div>
+							<div class="dashboard__ticket-lines">
+								<div class="dashboard__ticket-lines-rectangle"></div>
+								<div class="dashboard__ticket-lines-rectangle"></div>
+								<div class="dashboard__ticket-lines-rectangle"></div>
+								<div class="dashboard__ticket-lines-rectangle"></div>
+								<div class="dashboard__ticket-lines-rectangle"></div>
+							</div>
+							<div class="row">
+								<label for="totalBill" class="form-label text-uppercase col-auto ms-auto">Total</label>
+								<div class="col-4 margin-input">
+									<input type="text" class="form-control" name="totalBill" id="totalBill" value="" pattern="\d{1,6}([\.,]\d{1,2})?" placeholder="XXX,XX" required="">
+									<div class="invalid-tooltip">Importe introducido erróneamente: formato ha de ser 999999,99</div>
+								</div>
+							</div>
+							<div class="dashboard__bills-btn d-grid d-md-block">
+							
+								<button type="submit" class="btn btn-primary" disabled="">
+									SOLICITAR FACTURA
+								</button>
+							</div>
+						</form>
+					</div>
+				</div>
+				<div class="dashboard__lastbills">
+					<span class="dashboard__subtitle">Últimas facturas</span>
+					
+					 	<ul class="dashboard__lastbills-list">
+					 
+					
+                        <li class="dashboard__lastbills-item">
+                            <div class="dashboard__lastbills-left">
+                                <span class="dashboard__lastbills-date">24/05/2025</span>
+                                
+                                
+                            </div>
+                            <div class="dashboard__lastbills-right">
+                                <span class="dashboard__lastbills-price">4,45 €</span>
+                      		
+                                <a href="javascript:doShowPdf('2025','3274','2412938','A','V','24/05/2025','N')" class="dashboard__lastbills-download d-inline-block" download="">
+                                    <i class="icon-download"></i>
+                                </a>
+                            
+                            </div>
+                        </li>					
+					
+					
+					
+					
+                        <li class="dashboard__lastbills-item">
+                            <div class="dashboard__lastbills-left">
+                                <span class="dashboard__lastbills-date">24/05/2025</span>
+                                
+                                
+                            </div>
+                            <div class="dashboard__lastbills-right">
+                                <span class="dashboard__lastbills-price">11,62 €</span>
+                      		
+                                <a href="javascript:doShowPdf('2025','3274','2412719','A','V','24/05/2025','N')" class="dashboard__lastbills-download d-inline-block" download="">
+                                    <i class="icon-download"></i>
+                                </a>
+                            
+                            </div>
+                        </li>					
+					
+					
+					
+					
+                        <li class="dashboard__lastbills-item">
+                            <div class="dashboard__lastbills-left">
+                                <span class="dashboard__lastbills-date">23/05/2025</span>
+                                
+                                
+                            </div>
+                            <div class="dashboard__lastbills-right">
+                                <span class="dashboard__lastbills-price">12,50 €</span>
+                      		
+                                <a href="javascript:doShowPdf('2025','3274','2394715','A','V','23/05/2025','N')" class="dashboard__lastbills-download d-inline-block" download="">
+                                    <i class="icon-download"></i>
+                                </a>
+                            
+                            </div>
+                        </li>					
+					
+					
+					
+					
+                        <li class="dashboard__lastbills-item">
+                            <div class="dashboard__lastbills-left">
+                                <span class="dashboard__lastbills-date">23/05/2025</span>
+                                
+                                
+                            </div>
+                            <div class="dashboard__lastbills-right">
+                                <span class="dashboard__lastbills-price">42,60 €</span>
+                      		
+                                <a href="javascript:doShowPdf('2025','3274','2393989','A','V','23/05/2025','N')" class="dashboard__lastbills-download d-inline-block" download="">
+                                    <i class="icon-download"></i>
+                                </a>
+                            
+                            </div>
+                        </li>					
+					
+					
+					
+					
+                        <li class="dashboard__lastbills-item">
+                            <div class="dashboard__lastbills-left">
+                                <span class="dashboard__lastbills-date">23/05/2025</span>
+                                
+                                
+                            </div>
+                            <div class="dashboard__lastbills-right">
+                                <span class="dashboard__lastbills-price">83,17 €</span>
+                      		
+                                <a href="javascript:doShowPdf('2025','3750','2393842','A','V','23/05/2025','N')" class="dashboard__lastbills-download d-inline-block" download="">
+                                    <i class="icon-download"></i>
+                                </a>
+                            
+                            </div>
+                        </li>					
+					
+					
+					
+					</ul>
+					
+					<form id="misFacturasForm" action="/pclie/web/op.htm" method="post">
+						<input type="hidden" name="operation" value="pclie.flow.ri.misFacturas.selecEnt">
+						<input type="hidden" name="billsFiscalEntitySelect" value="">
+						
+						<div class="dashboard__bills-btn d-grid d-md-block text-end">
+							<button class="btn btn-primary " type="submit">
+								VER TODAS MIS FACTURAS
+							</button>
+						</div>
+					</form>
+					
+				</div>
+			</div>
+		</article>
+
+		<!-- MODAL AYUDA -->
+		<div class="modal modal-ticket fade" id="ticketHelp" tabindex="-1" aria-labelledby="modalTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+				<div class="modal-content">
+					<div class="modal-header">
+						<p class="modal-title" id="modalTitle">Ayuda</p>
+					</div>
+					<div class="modal-body">
+						<div class="text-help">
+							<p>Debes buscar en tu documento de compra los siguientes datos:</p>
+							<ul>
+								<li><p><strong>Fecha de la compra</strong></p></li>
+								<li><p><strong>Factura simplificada</strong></p></li>
+								<li><p><strong>Importe de la compra "TOTAL"</strong></p></li>
+							</ul>
+						</div>						
+						<div class="dashboard__help">
+							<p>Los datos que se muestran son a modo de ejemplo</p>
+                            <div class="img-ticket img-ticket-store">
+                                <img src="/pclie/assets/img/img-ticket-help.jpg?v=1.1" alt="Ticket tienda">
+                            </div>
+						</div>
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-primary" data-bs-dismiss="modal">ENTENDIDO</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+	<script>   
+    function doShowPdf(anyo, centro, numFact, tipoFact, tipoImp, fechaFact, mensual ) {
+    	$('#showPDFFrm #anyoFact').val(anyo);
+    	$('#showPDFFrm #centroFact').val(centro);
+    	$('#showPDFFrm #numFact').val(numFact);
+    	$('#showPDFFrm #tipoFact').val(tipoFact);
+    	$('#showPDFFrm #tipoImp').val(tipoImp);
+    	$('#showPDFFrm #fechaFact').val(fechaFact);
+    	$('#showPDFFrm #mensual').val(mensual);
+
+    	$('#showPDFFrm #billsFiscalEntitySelect').val('EB47785811');
+    	$('#showPDFFrm #tfiscalEntitySelect').val('EB47785811');
+    	$('#showPDFFrm #dateFrom').val(
+    			$('#filterByDateForm #dateFrom').val());
+    	$('#showPDFFrm #dateTo').val(
+    			$('#filterByDateForm #dateTo').val());
+    	
+    	$('#showPDFFrm').trigger('submit');
+    }
+    </script>
+    
+    <!-- Acciones del menu callMisFacturasMenu -->
+    <script>
+    $('#btnMisFacturasMenu').on('click', function() {
+       $('#misFacturasForm').trigger('submit');
+    });        
+           	
+   
+   
+   	<!--Al pulsar la opcion 'Selecciona a quien emitir la factura' del combo se retorna a la pantalla en la que los campos están deshabilitados  -->
+	
+		$('#fiscalEntitySelect').on('change', function() {
+	        const value = $(this).children(':selected').attr('value');
+	
+	        if (value === "-1") {
+	        	$('#formEntitySelect').attr('action', '/pclie/web/op.htm?operation=pclie.flow.ri.solicitudFactura');
+	        	$('#formEntitySelect').trigger('submit');
+	        }
+		});
+		
+		// startDate debe ser la fecha de hoy - 4 años completos
+		const initialDate = new Date();
+		initialDate.setFullYear(initialDate.getFullYear() - 4);
+		// Datepicker
+		$('.input-group.date').datepicker({
+			autoclose: true,
+			format: "dd/mm/yyyy",
+			language: "es_ES",
+			todayHighlight: true,
+			startDate: initialDate,
+			endDate: "today"
+		});
+
+
+
+	</script>
+    
+</div>
+	
+
+
+
+
+
+
+
+
+
+  <footer class="footer footer__home">
+        <div class="footer__container">
+            <div class="footer__links">
+                <ul class="footer__links-container">
+                    <li>
+                        <a href="/pclie/web/op.htm?operation=pclie.flow.ri.preguntasFrecuentes&amp;fwk.locale=es_ES" target="_blank">Preguntas frecuentes</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="/pclie/web/op.htm?operation=pclie.flow.ri.avisoLegal&amp;fwk.locale=es_ES">Aviso legal</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="/pclie/web/op.htm?operation=pclie.flow.ri.cookies&amp;fwk.locale=es_ES">Política de cookies</a>
+                    </li>
+                    <li>
+                        <a target="_blank" href="https://info.mercadona.es/es/accesibilidad">Accesibilidad</a>
+                    </li>
+                </ul>
+                <div class="footer__block ms-auto">
+                    <div class="o-footer-phone">
+						<div class="o-footer-support"></div>
+						<div>800 500 220</div>
+					</div>
+                </div>
+            </div>
+            <div class="footer__fluid">
+                <p class="footer__copyright">© Mercadona S.A. A46103834. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+	
+
+<script src="/pclie/js/validate-forms.js"></script>
+<script src="/pclie/js/main.js?v=1.4"></script>
+
+
+<script type="text/javascript" src="/uYQU/3N1A/VafNJ/TLFrQ/tEESXrLhtLkp3N/Wh86Cj0C/WltE/Jh8OS3Y"></script>
+
+<script type="text/javascript">
+page.renderControls('p::p',["__menubar"]);
+fwk.doAfterPage();
+</script><script type="text/javascript">page.validatorKeys([]);</script><script type="text/javascript">
+page.scriptEnd();
+</script>
+</body></html>

@@ -144,7 +144,7 @@ def write_to_excel(data, filename="facturas.xlsx"):
 
 # Función principal
 def main():
-    pdf_files = glob.glob('FACTURAS MERCADONA CONTABILIZADAS/*.pdf')
+    pdf_files = glob.glob('MERCADONA_BANCO_SI/*.pdf')
     logging.info(f"Se encontraron {len(pdf_files)} archivos PDF.")
 
     try:

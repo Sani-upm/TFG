@@ -16,3 +16,10 @@
 /PDFautomat/TICKETS_MERCADONA_READ_8313
 /PDFautomat/TICKETS_MERCADONA_READ_REST
 
+*.json
+*.env
+
+/PDFautomat/TICKETS_MERCADONA_READ
+/PDFautomat/TICKETS_MERCADONA_ERROR
+/PDFautomat/chrome-login-mercadona
+
