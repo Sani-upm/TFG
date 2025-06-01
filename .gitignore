@@ -1,41 +1,44 @@
-
-/INFORMES
-
-/PDFautomat/INPUT
-/PDFautomat/MERCADONA_BANCO_SI
-/PDFautomat/MERCADONA_BANCO_NO
-/PDFautomat/LIDL_SI
-/PDFautomat/LIDL_NO
-/PDFautomat/*.xlsx
-.DS_Store
-/PDFautomat/*.json
-/PDFautomat/MAKRO_NO
-/PDFautomat/MAKRO_SI
-/PDFautomat/TICKETS_MERCADONA_UNREAD
-/PDFautomat/TICKETS_MERCADONA_READ_8305
-/PDFautomat/TICKETS_MERCADONA_READ_8313
-/PDFautomat/TICKETS_MERCADONA_READ_REST
-
-*.json
-*.env
-
-/PDFautomat/TICKETS_MERCADONA_READ
-/PDFautomat/TICKETS_MERCADONA_ERROR
-/PDFautomat/chrome-login-mercadona
-/PDFautomat/Archivos de apoyo - excels
-/PDFautomat/Archivos python obsoletos
-/PDFautomat/EN desarrollo
-/PDFautoma/FACTURAS Z_HISTORICO MERCADONA
-/PDFautoma/LOGGER_de_extraccion_de_correos
-/PDFautoma/LOG_BOT_generacion_descarga_facturas
-/PDFautoma/errores_html
-/PDFautoma/LOGGER_PROCESAMIENTO_FACTURAS_EN_EXCEL
-/PDFautoma/FACTURAS_MERCADONA_PROCESADAS
-/PDFautoma/FACTURAS_MERCADONA_DUPLICADAS
-/PDFautoma/FACTURA_MERCADONA_ERROR
-
+# Carpetas de informes y automatización
+/INFORMES/
  
-# Entornos virtuales y conda
+/PDFautomat/INPUT/
+/PDFautomat/MERCADONA_BANCO_SI/
+/PDFautomat/MERCADONA_BANCO_NO/
+/PDFautomat/LIDL_SI/
+/PDFautomat/LIDL_NO/
+/PDFautomat/MAKRO_NO/
+/PDFautomat/MAKRO_SI/
+/PDFautomat/TICKETS_MERCADONA_UNREAD/
+/PDFautomat/TICKETS_MERCADONA_READ_8305/
+/PDFautomat/TICKETS_MERCADONA_READ_8313/
+/PDFautomat/TICKETS_MERCADONA_READ_REST/
+/PDFautomat/TICKETS_MERCADONA_READ/
+/PDFautomat/TICKETS_MERCADONA_ERROR/
+/PDFautomat/chrome-login-mercadona/
+/PDFautomat/Archivos_de_apoyo_excels/
+/PDFautomat/Archivos_python_obsoletos/
+/PDFautomat/EN_desarrollo/
+
+/PDFautomat/FACTURAS_Z_HISTORICO_MERCADONA_CONTABILIZADAS/
+/PDFautomat/LOGGER_de_extraccion_de_correos/
+/PDFautomat/LOG_BOT_generacion_descarga_facturas/
+/PDFautomat/errores_html/
+/PDFautomat/LOGGER_PROCESAMIENTO_FACTURAS_EN_EXCEL/
+/PDFautomat/FACTURAS_MERCADONA_PROCESADAS/
+/PDFautomat/FACTURAS_MERCADONA_DUPLICADAS/
+/PDFautomat/FACTURA_MERCADONA_ERROR/
+
+# Formatos específicos
+*.json
+*.xlsx
+*.xls
+*.csv
+*.env
+*.log
+*.tmp
+*.bak
+
+# Python y entornos
 .env/
 venv/
 .venv/
@@ -43,22 +46,15 @@ __pycache__/
 *.py[cod]
 *.pyo
 
-# Archivos de configuración temporales
-*.log
-*.tmp
-*.bak
+# Archivos del sistema
+.DS_Store
+Thumbs.db
 
-# Archivos de resultados
-*.xlsx
-*.xls
-*.csv
-
-# Carpetas de logs generados por scripts
+# Logs y registros personalizados
 LOGGER_LECTURA-ESCRITURA_TICKETS/
 LOG_BOT_generacion_descarga_descargas_facturas/
 
-# Archivos del sistema y editores
-.DS_Store
-Thumbs.db
+# Editores
 .idea/
 .vscode/
+
