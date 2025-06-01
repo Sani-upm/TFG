@@ -45,3 +45,45 @@
 2025-05-24 16:44:29,309 - INFO - Total de archivos descargados: 3
 2025-05-24 16:44:29,312 - INFO - Script finalizado a las 2025-05-24 16:44:29 (Duración total: 0:00:03.636196)
 2025-05-28 19:11:27,714 - INFO - Script iniciado a las 2025-05-28 19:11:27
+2025-06-01 19:09:10,567 - INFO - Script iniciado a las 2025-06-01 19:09:10
+2025-06-01 19:10:24,415 - INFO - Script iniciado a las 2025-06-01 19:10:24
+2025-06-01 19:10:24,415 - WARNING - token.json corrupto. Eliminando...
+2025-06-01 19:11:10,300 - INFO - Script iniciado a las 2025-06-01 19:11:10
+2025-06-01 19:11:39,736 - INFO - El token de credenciales es válido hasta: 2025-06-01 18:11:38
+2025-06-01 19:11:40,883 - INFO - Archivo descargado: 20250531 Mercadona 33,55 €.pdf
+2025-06-01 19:11:41,832 - INFO - Archivo descargado: 20250531 Mercadona 55,17 €.pdf
+2025-06-01 19:11:42,830 - INFO - Archivo descargado: 20250530 Mercadona 10,15 €.pdf
+2025-06-01 19:11:43,858 - INFO - Archivo descargado: 20250530 Mercadona 33,01 €.pdf
+2025-06-01 19:11:44,800 - INFO - Archivo descargado: 20250526 Mercadona 33,80 €.pdf
+2025-06-01 19:11:46,011 - INFO - Archivo descargado: 20250522 Mercadona 20,80 €.pdf
+2025-06-01 19:11:47,060 - INFO - Archivo descargado: 20250521 Mercadona 10,66 €.pdf
+2025-06-01 19:11:48,054 - INFO - Archivo descargado: 20250512 Mercadona 5,32 €.pdf
+2025-06-01 19:11:49,182 - INFO - Archivo descargado: 20250527 Mercadona 11,30 €.pdf
+2025-06-01 19:11:49,509 - INFO - Total de archivos descargados: 9
+2025-06-01 19:11:49,514 - INFO - Script finalizado a las 2025-06-01 19:11:49 (Duración total: 0:00:39.214294)
+2025-06-01 19:25:20,668 - INFO - Script iniciado a las 2025-06-01 19:25:20
+2025-06-01 19:25:20,672 - INFO - El token de credenciales es válido hasta: 2025-06-01 18:11:38
+2025-06-01 19:25:21,634 - INFO - Archivo descargado: 20250531 Mercadona 33,55 €.pdf
+2025-06-01 19:25:22,658 - INFO - Archivo descargado: 20250531 Mercadona 55,17 €.pdf
+2025-06-01 19:25:23,577 - INFO - Archivo descargado: 20250530 Mercadona 10,15 €.pdf
+2025-06-01 19:25:24,504 - INFO - Archivo descargado: 20250530 Mercadona 33,01 €.pdf
+2025-06-01 19:25:25,626 - INFO - Archivo descargado: 20250526 Mercadona 33,80 €.pdf
+2025-06-01 19:25:26,719 - INFO - Archivo descargado: 20250522 Mercadona 20,80 €.pdf
+2025-06-01 19:25:27,768 - INFO - Archivo descargado: 20250521 Mercadona 10,66 €.pdf
+2025-06-01 19:25:28,788 - INFO - Archivo descargado: 20250512 Mercadona 5,32 €.pdf
+2025-06-01 19:25:29,700 - INFO - Archivo descargado: 20250527 Mercadona 11,30 €.pdf
+2025-06-01 19:25:30,120 - INFO - Total de archivos descargados: 9
+2025-06-01 19:25:30,122 - INFO - Script finalizado a las 2025-06-01 19:25:30 (Duración total: 0:00:09.455153)
+2025-06-01 19:58:10,904 - INFO - Script iniciado a las 2025-06-01 19:58:10
+2025-06-01 19:58:10,908 - INFO - El token de credenciales es válido hasta: 2025-06-01 18:11:38
+2025-06-01 19:58:11,750 - INFO - Archivo descargado: 20250531 Mercadona 33,55 €.pdf
+2025-06-01 19:58:12,761 - INFO - Archivo descargado: 20250531 Mercadona 55,17 €.pdf
+2025-06-01 19:58:13,787 - INFO - Archivo descargado: 20250530 Mercadona 10,15 €.pdf
+2025-06-01 19:58:14,709 - INFO - Archivo descargado: 20250530 Mercadona 33,01 €.pdf
+2025-06-01 19:58:15,730 - INFO - Archivo descargado: 20250526 Mercadona 33,80 €.pdf
+2025-06-01 19:58:16,755 - INFO - Archivo descargado: 20250522 Mercadona 20,80 €.pdf
+2025-06-01 19:58:17,781 - INFO - Archivo descargado: 20250521 Mercadona 10,66 €.pdf
+2025-06-01 19:58:18,907 - INFO - Archivo descargado: 20250512 Mercadona 5,32 €.pdf
+2025-06-01 19:58:19,664 - INFO - Archivo descargado: 20250527 Mercadona 11,30 €.pdf
+2025-06-01 19:58:20,027 - INFO - Total de archivos descargados: 9
+2025-06-01 19:58:20,030 - INFO - Script finalizado a las 2025-06-01 19:58:20 (Duración total: 0:00:09.125681)
