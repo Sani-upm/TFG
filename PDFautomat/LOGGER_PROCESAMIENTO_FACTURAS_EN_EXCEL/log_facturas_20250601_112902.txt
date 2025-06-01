@@ -1,0 +1,30 @@
+RESUMEN DE LA EJECUCIÓN
+=========================
+Facturas procesadas correctamente: 6
+Facturas duplicadas: 8
+Errores durante el procesamiento: 0
+
+ARCHIVOS PROCESADOS POR CATEGORÍA
+==================================
+
+✅ Facturas añadidas al Excel:
+ - A-V2025-00002415256.pdf
+ - A-V2025-00002412938.pdf
+ - A-V2025-00002414959.pdf
+ - A-V2025-00002415261.pdf
+ - A-V2025-00002414369.pdf
+ - A-V2025-00002412719.pdf
+
+🔁 Facturas duplicadas (ya estaban en el Excel):
+ - A-V2025-00002418005.pdf
+ - A-V2025-00001932388 (1).pdf
+ - Copy of A-V2024-00005390207.pdf
+ - A-V2025-00002417998.pdf
+ - A-V2025-00002417987.pdf
+ - A-V2024-00000894529.pdf
+ - A-V2024-00001396607.pdf
+ - A-V2025-00001932388.pdf
+
+❌ Facturas con error (estructura no reconocida o fallo al leer PDF):
+ (ninguna)
+

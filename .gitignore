@@ -22,4 +22,43 @@
 /PDFautomat/TICKETS_MERCADONA_READ
 /PDFautomat/TICKETS_MERCADONA_ERROR
 /PDFautomat/chrome-login-mercadona
+/PDFautomat/Archivos de apoyo - excels
+/PDFautomat/Archivos python obsoletos
+/PDFautomat/EN desarrollo
+/PDFautoma/FACTURAS Z_HISTORICO MERCADONA
+/PDFautoma/LOGGER_de_extraccion_de_correos
+/PDFautoma/LOG_BOT_generacion_descarga_facturas
+/PDFautoma/errores_html
+/PDFautoma/LOGGER_PROCESAMIENTO_FACTURAS_EN_EXCEL
+/PDFautoma/FACTURAS_MERCADONA_PROCESADAS
+/PDFautoma/FACTURAS_MERCADONA_DUPLICADAS
+/PDFautoma/FACTURA_MERCADONA_ERROR
 
+ 
+# Entornos virtuales y conda
+.env/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Archivos de configuración temporales
+*.log
+*.tmp
+*.bak
+
+# Archivos de resultados
+*.xlsx
+*.xls
+*.csv
+
+# Carpetas de logs generados por scripts
+LOGGER_LECTURA-ESCRITURA_TICKETS/
+LOG_BOT_generacion_descarga_descargas_facturas/
+
+# Archivos del sistema y editores
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

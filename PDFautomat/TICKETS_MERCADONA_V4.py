@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Sat May 17 18:55:25 2025
+Created on Sun Jun  1 12:39:55 2025
 
 @author: sani
 """
@@ -14,9 +14,34 @@ import logging
 import re
 import shutil
 import sys
+from datetime import datetime
+
+# Cargar tarjetas válidas
+tarjetas_validas_path = "tarjetas_validas.txt"
+tarjetas_validas = set()
+
+if os.path.exists(tarjetas_validas_path):
+    with open(tarjetas_validas_path, 'r', encoding='utf-8') as f:
+        tarjetas_validas = set(line.strip() for line in f if line.strip())
+else:
+    logging.warning(f"No se encontró el archivo {tarjetas_validas_path}. Se asumirá 'Banco NO' por defecto.")
+
+def es_tarjeta_valida(ultimos4):
+    return str(ultimos4) in tarjetas_validas
 
 # Configuración de logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+log_dir = "LOGGER_LECTURA-ESCRITURA_TICKETS"
+os.makedirs(log_dir, exist_ok=True)
+log_filename = os.path.join(log_dir, f"log_lectura_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
+
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(log_filename, encoding='utf-8')
+    ]
+)
 
 def extract_ticket_data(pdf_path):
     """Extrae datos clave de un ticket de Mercadona en PDF."""
@@ -38,7 +63,9 @@ def extract_ticket_data(pdf_path):
             "Caja": None,
             "Ticket": None,
             "Total": None,
-            "Tarjeta": None
+            "Tarjeta": None,
+            "Procesado": "",
+            "Comentario": ""
         }
 
         # Fecha
@@ -46,7 +73,7 @@ def extract_ticket_data(pdf_path):
         if fecha_match:
             data["Fecha"] = fecha_match.group()
 
-        # Factura Simplificada: 3274-013-085994
+        # Factura Simplificada
         factura_match = re.search(r'FACTURA SIMPLIFICADA:\s*(\d{4})-(\d{3})-(\d+)', text)
         if factura_match:
             data["Tienda"] = int(factura_match.group(1))
@@ -59,11 +86,11 @@ def extract_ticket_data(pdf_path):
             data["Total"] = float(total_match.group(1).replace(',', '.'))
 
         # Últimos 4 dígitos de la tarjeta
-        tarjeta_match = re.search(r'TARJ\. BANCARIA.*?(\d{4})', text)
+        tarjeta_match = re.search(r'TARJ\.?\.?\s*BANCARIA.*?(\d{4})', text)
         if tarjeta_match:
             data["Tarjeta"] = int(tarjeta_match.group(1))
 
-        if all(data.values()):
+        if data["Fecha"] and data["Tienda"] and data["Caja"] and data["Ticket"] and data["Total"]:
             return data
         else:
             logging.warning(f"Datos incompletos en {pdf_path}: {data}")
@@ -84,11 +111,13 @@ def process_tickets(folder_path, processed_folder, excel_path):
     os.makedirs(error_folder, exist_ok=True)
 
     if os.path.exists(excel_path):
-        df_existente = pd.read_excel(excel_path, dtype={"Tienda": int, "Caja": int, "Ticket": int, "Tarjeta": int})
+        df_existente = pd.read_excel(excel_path, dtype={"Tienda": int, "Caja": int, "Ticket": int, "Tarjeta": int, "Procesado": str, "Comentario": str})
     else:
-        df_existente = pd.DataFrame(columns=["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta"])
+        df_existente = pd.DataFrame(columns=["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta", "Procesado", "Comentario"])
 
     nuevos_datos = []
+    procesados_ok = []
+    procesados_error = []
 
     for pdf_file in pdf_files:
         logging.info(f"Procesando {pdf_file}")
@@ -102,25 +131,42 @@ def process_tickets(folder_path, processed_folder, excel_path):
             ).any()
 
             if existe:
-                logging.info(f"Ticket ya existe: {ticket_data}")
+                logging.info(f"Ticket ya existente: {pdf_file}")
             else:
                 nuevos_datos.append(ticket_data)
 
-            # Mover archivo procesado
+            destino = os.path.join(processed_folder, os.path.basename(pdf_file))
             os.makedirs(processed_folder, exist_ok=True)
-            shutil.move(pdf_file, os.path.join(processed_folder, os.path.basename(pdf_file)))
+            shutil.move(pdf_file, destino)
+
+            # Banco SI/NO
+            estado_banco = "Banco NO"
+            if ticket_data.get("Tarjeta") is not None and es_tarjeta_valida(ticket_data["Tarjeta"]):
+                estado_banco = "Banco SI"
+
+            logging.info(f"Movido a procesados: {os.path.basename(pdf_file)} | TOTAL: {ticket_data['Total']} € | {estado_banco}")
+            procesados_ok.append(os.path.basename(pdf_file))
         else:
-            logging.warning(f"No se pudo extraer información válida de {pdf_file}. Moviendo a carpeta de errores.")
-            shutil.move(pdf_file, os.path.join(error_folder, os.path.basename(pdf_file)))
+            destino = os.path.join(error_folder, os.path.basename(pdf_file))
+            shutil.move(pdf_file, destino)
+            logging.warning(f"Movido a errores: {os.path.basename(pdf_file)}")
+            procesados_error.append(os.path.basename(pdf_file))
 
     if nuevos_datos:
         df_nuevos = pd.DataFrame(nuevos_datos)
+        for col in ["Procesado", "Comentario"]:
+            if col not in df_nuevos.columns:
+                df_nuevos[col] = ""
+
         df_final = pd.concat([df_existente, df_nuevos], ignore_index=True)
-        df_final = df_final[["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta"]]
+        df_final = df_final[["Fecha", "Tienda", "Caja", "Ticket", "Total", "Tarjeta", "Procesado", "Comentario"]]
         df_final.to_excel(excel_path, index=False)
-        logging.info("Exportación completada correctamente.")
+        logging.info(f"Exportación completada: {len(nuevos_datos)} nuevos tickets añadidos.")
     else:
         logging.info("No hay nuevos tickets para agregar.")
+
+    logging.info(f"Tickets procesados correctamente: {len(procesados_ok)}")
+    logging.info(f"Tickets con error de lectura: {len(procesados_error)}")
 
 if __name__ == "__main__":
     folder = "TICKETS_MERCADONA_UNREAD"
